@@ -1,5 +1,8 @@
 // fascia azzurra del main (bonus)
 
+//* importazione css
+import './BlueBar.css';
+
 function BlueBar() {
     return (
         <div className="blue-bar">

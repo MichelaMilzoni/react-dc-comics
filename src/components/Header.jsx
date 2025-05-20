@@ -1,5 +1,8 @@
 // Navbar con menu e logo 
 
+//* importazione css
+import './Header.css';
+
 //* funzione che restituisce JSX
 function Header() {
     return (

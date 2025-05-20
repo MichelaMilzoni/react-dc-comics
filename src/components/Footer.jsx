@@ -1,5 +1,8 @@
 // sezione finale con link e icone social
 
+//* importazione css
+import './Footer.css';
+
 function Footer() {
     return (
         <footer className="footer">

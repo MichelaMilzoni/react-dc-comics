@@ -1,4 +1,7 @@
-// sezione centrale della pagina
+// sezione centrale della 
+
+//* importazione css
+import './Main.css';
 
 //* funzione che restituisce JSX
 function Main() {
