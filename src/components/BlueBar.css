@@ -1,3 +1,35 @@
-blue-bar {
-    border: 2px solid blue
+.blue-bar {
+    height: 150px;
+    background-color: #0282F9;
+    display: flex;
+    align-items: center; /* Centra tutto verticalmente */
+    justify-content: space-around;
+}
+
+.blue-bar ul {
+  list-style: none;
+  padding: 0;
+  display: flex; /* Per disporre gli elementi in riga */
+  justify-content: space-around; /* Per distribuirli uniformemente */
+gap: 30px;    
+}
+
+.blue-bar li {
+  display: flex;
+  align-items: center; /* Centra verticalmente */
+  justify-content: center; /* Centra orizzontalmente */
+  gap: 10px; /* Spazio tra immagine e testo */
+}
+
+
+.blue-bar img {
+  width: 30px; /* Modifica la grandezza dell'immagine */
+  height: auto;
+}
+
+.blue-bar p {
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
 }

@@ -1,3 +1,43 @@
 header {
-    border: 2px solid red
+background-color: white;
+padding: 10px;
+
+height: 100px;
+position: relative;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+header li.active {
+  color: blue;
+  border-bottom: 2px solid blue;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+header li {
+    margin: 0 10px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+header .uppercase {
+    text-transform: uppercase;
+}
+
+header img {
+    width: 80px;
+    height: 80px;
 }

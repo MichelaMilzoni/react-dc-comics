@@ -4,12 +4,14 @@
 import './Main.css';
 
 //* funzione che restituisce JSX
-function Main() {
-    return (
-        <main className="main">
-            <h1 >MAIN</h1>
-        </main>
-    );
+const Main = () => {
+  return (
+    <main>
+      <section className="hero">
+        <h1> -- Content goes here! -- </h1>
+      </section>
+    </main>
+  );
 };
 
 //* esportazione del componente Main
