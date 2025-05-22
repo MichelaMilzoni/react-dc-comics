@@ -1,8 +1,31 @@
 .footer-links {
+    position: relative;
     background-image: url('../../public/img/footer-bg.jpg');
     font-family: 'Open Sans', sans-serif;
 }
 
 .footer-links li {
     color: white;
+}
+
+.footer-links h3 {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: grey;
+    font-size: 12px;
+}
+
+
+.footer-links .logo-footer {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    z-index: 10;
+}
+
+.footer-links img {
+    object-fit: cover;
 }

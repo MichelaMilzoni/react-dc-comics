@@ -26,6 +26,7 @@ h1 {
     color: white;
     font-size: 12px;
     font-weight: bold;
+    border: none;
 
     padding: 10px 10px;
     margin-bottom: 20px;
@@ -42,5 +43,5 @@ h1 {
     
     position: absolute;
     top: 425px;
-    left: 170px;
+    left: 110px;
 }

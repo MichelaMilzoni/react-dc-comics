@@ -2,11 +2,9 @@
   display: grid;
   align-content: center;
   justify-content: space-around;
-  align-items: center;  
   justify-items: stretch;
   grid-template-columns: repeat(6, 1fr); /* Sei colonne per riga */
   gap: 20px;
-  justify-items: center;
   margin-top: 50px;
 }
 
