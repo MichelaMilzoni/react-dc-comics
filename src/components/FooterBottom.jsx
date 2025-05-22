@@ -1,20 +1,12 @@
 // sezione finale con link e icone social
 
 //* importazione css
-import './Footer.css';
+import './FooterTop.css';
 
-const Footer = () => {
+const FooterTop = () => {
   return (
     <footer>
-      <div className="footer-links">
-        <ul>
-          <li>DC Comics</li>
-          <li>DC Entertainment</li>
-          <li>Sites</li>
-          <li>Shop</li>
-        </ul>
-      </div>
-      <div className="social-media">
+      <section className="social-media">
         <p>Follow us on:</p>
         <ul>
           <li>Facebook</li>
@@ -22,10 +14,10 @@ const Footer = () => {
           <li>Instagram</li>
           <li>YouTube</li>
         </ul>
-      </div>
+      </section>
     </footer>
   );
 }; 
 
 //* esportazione del componente Footer
-export default Footer;
+export default FooterTop;

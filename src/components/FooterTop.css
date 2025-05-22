@@ -1,0 +1,7 @@
+.footer-links {
+    background-image: url('../../public/img/footer-bg.jpg');
+}
+
+.footer-links li {
+    color: white;
+}

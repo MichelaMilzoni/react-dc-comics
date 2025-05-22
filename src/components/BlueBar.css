@@ -11,7 +11,7 @@
   padding: 0;
   display: flex; /* Per disporre gli elementi in riga */
   justify-content: space-around; /* Per distribuirli uniformemente */
-gap: 30px;    
+  gap: 5rem;    
 }
 
 .blue-bar li {

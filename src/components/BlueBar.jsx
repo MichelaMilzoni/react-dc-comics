@@ -1,5 +1,10 @@
 // fascia azzurra del main (bonus)
 
+
+//* importazione Alert
+import Alert from './Alert';
+
+
 //* importazione css
 import './BlueBar.css';
 

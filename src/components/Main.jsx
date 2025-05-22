@@ -1,15 +1,18 @@
-// sezione centrale della 
+// sezione centrale
 
 //* importazione css
 import './Main.css';
 
 //* funzione che restituisce JSX
-const Main = () => {
+const Main = ({ handleError }) => {
+  const simulateError = () => {
+    handleError("Errore nel caricamento dei dati!");
+  };
+
   return (
     <main>
-      <section className="hero">
-        <h1> -- Content goes here! -- </h1>
-      </section>
+      <h1>Benvenuto!</h1>
+      {/* <button onClick={simulateError}>Simula Errore</button> */}
     </main>
   );
 };
