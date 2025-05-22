@@ -1,5 +1,5 @@
 //* importazione css
-import './Alert.css';
+import '../styles/Alert.css';
 
 const Alert = ({ text = "Si è verificato un errore", textColor = "#ffffff", bgColor = "#ff0000", children }) => {
   return (

@@ -1,0 +1,46 @@
+main {
+    background-color: #1C1C1C;
+    color: white;
+    /* display: flex;
+    justify-content: flex-start; */
+    /* align-items: center; */
+    text-align: center;
+
+    position: relative;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.jumbotron {
+    height: 450px;
+    width: 100%;
+    background-image: url('../../public/img/jumbotron.jpg');
+    background-size: cover;
+}
+
+.button-load-more {
+    background-color: #0282F9;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+
+.section-main-title {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #0282F9;
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 8px;
+    
+    position: absolute;
+    top: 425px;
+    left: 170px;
+}

@@ -6,7 +6,7 @@ import Alert from './Alert';
 
 
 //* importazione css
-import './BlueBar.css';
+import '../styles/BlueBar.css';
 
 const BlueBar = () => {
   return (

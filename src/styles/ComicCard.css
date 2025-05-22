@@ -1,0 +1,20 @@
+.comic-card {
+  width: 10rem;
+  text-align: left;
+  background-color: #1C1C1C;
+}
+
+.comic-card img {
+  width: 10rem; /* Larghezza fissa */
+  height: 10rem; /* Altezza uguale alla larghezza per ottenere un quadrato */
+  object-fit: cover; /* Taglia l'immagine mantenendo le proporzioni */
+  object-position: top;
+  border-radius: 5px; /* Facoltativo, per angoli arrotondati */
+}
+
+.comic-card h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  margin-top: 20px;
+  color: white;
+}

@@ -1,7 +1,9 @@
 // sezione centrale
+//* importazione card
+import ComicList from "./ComicList";
 
 //* importazione css
-import './Main.css';
+import '../styles/Main.css';
 
 //* funzione che restituisce JSX
 const Main = ({ handleError }) => {
@@ -11,8 +13,11 @@ const Main = ({ handleError }) => {
 
   return (
     <main>
-      <h1>Benvenuto!</h1>
+      <section className="jumbotron"></section>
+      <h2 className="section-main-title">CURRENT SERIES</h2>
       {/* <button onClick={simulateError}>Simula Errore</button> */}
+      <ComicList />
+      <button className="button-load-more">LOAD MORE</button>
     </main>
   );
 };

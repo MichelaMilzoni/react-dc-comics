@@ -1,5 +1,5 @@
 //* Importazione del file CSS
-import "./FooterTop.css";
+import "../styles/FooterTop.css";
 
 const FooterTop = () => {
   return (

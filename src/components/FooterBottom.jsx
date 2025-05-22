@@ -1,7 +1,7 @@
 // sezione finale con link e icone social
 
 //* importazione css
-import './FooterTop.css';
+import '../styles/FooterTop.css';
 
 const FooterTop = () => {
   return (
